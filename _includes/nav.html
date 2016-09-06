@@ -7,26 +7,26 @@
                     <a href="{{site.base_url}}"></a>
                 </li>
                 <li>
-                    <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-left">Monitoring</a>
+                    <a href="{{site.url}}/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-left">Monitoring</a>
                     <ul class="submenu">
-                        <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
-                        <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+                        <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="{{site.url}}/monitoring/laendervergleich">Ländervergleich</a></li>
+                        <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="{{site.url}}/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">2030 Agenda</a>
+                    <a href="{{site.url}}/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">2030 Agenda</a>
                     <ul class="submenu">
-                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">Ziele</a></li>
+                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="{{site.url}}/verstehen/ziele">Ziele</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-left">Blog</a>
+                    <a href="{{site.url}}/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-left">Blog</a>
                 </li>
                 <li>
-                    <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">Methodik</a>
+                    <a href="{{site.url}}/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">Methodik</a>
                 </li>
                 <li>
-                    <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-left">Über uns</a>
+                    <a href="{{site.url}}/about" class="{% if page.slug == 'about' %} active {% endif %} text-left">Über uns</a>
                 </li>
             </ul>
         </nav>
